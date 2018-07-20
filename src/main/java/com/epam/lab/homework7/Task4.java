@@ -6,7 +6,7 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class Task4 {
-    private static final org.apache.log4j.Logger log = Logger.getLogger(Task2.class);
+    private static final org.apache.log4j.Logger log = Logger.getLogger(Task4.class);
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/studentdb?useSSL=false";
     private static final String USER = "root";
     private static final String PASSWORD = "root";

@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import java.sql.*;
 
 public class Task3 {
-    private static final org.apache.log4j.Logger log = Logger.getLogger(Task2.class);
+    private static final org.apache.log4j.Logger log = Logger.getLogger(Task3.class);
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/studentdb2?allowPublicKeyRetrieval=true&useUnicode=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private static final String USER = "root";
     private static final String PASSWORD = "root";

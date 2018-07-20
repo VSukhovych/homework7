@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 class CreateStudentDB {
-    private static final org.apache.log4j.Logger log = Logger.getLogger(Task2.class);
+    private static final org.apache.log4j.Logger log = Logger.getLogger(CreateStudentDB.class);
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306?useUnicode=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private static final String USER = "root";
     private static final String PASSWORD = "root";
